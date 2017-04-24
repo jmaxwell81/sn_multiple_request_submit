@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mass Terminations" max_length="40" name="x_kasp_termination_mass_terminations" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Termination Date" mandatory="true" max_length="40" name="termination_date" type="glide_date_time"/>
+        <element choice="1" label="Termination Request" mandatory="true" max_length="40" name="termination_request" type="string">
+            <choice>
+                <element label="Corporate Termination" sequence="0" value="4b81fe47c5f2d540f9350d5ad0fc1275"/>
+                <element label="Li &amp; Fung Termination" sequence="1" value="bf94ebf21dece0407793d153b51d204c"/>
+                <element label="Store Associate Termination" sequence="2" value="5f3ecda31da864407793d153b51d20a4"/>
+            </choice>
+        </element>
+        <element label="Termination Workflow" max_length="32" name="termination_workflow" reference="wf_workflow" type="reference"/>
+        <index name="index">
+            <element name="termination_workflow"/>
+        </index>
+    </element>
+</database>

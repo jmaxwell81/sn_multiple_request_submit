@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Terminations</name>
+        <order/>
+        <roles>x_kasp_termination_user,admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2015-06-10 15:42:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d2d05bb1f5e806003ff3bd1ff6575c59</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Terminations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Terminations" source="x_kasp_termination">56d0d7b1f5e806003ff3bd1ff6575c98</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Terminations">56d0d7b1f5e806003ff3bd1ff6575c98</sys_scope>
+        <sys_update_name>sys_app_application_d2d05bb1f5e806003ff3bd1ff6575c59</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2015-06-10 15:50:15</sys_updated_on>
+        <title>Terminations</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

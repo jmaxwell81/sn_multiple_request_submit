@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Associates to be Terminated" max_length="40" name="x_kasp_termination_associates_to_be_terminated" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Termination Requested" max_length="40" name="termination_requested" type="boolean"/>
+        <element label="User ID" max_length="40" name="user_id" type="string"/>
+    </element>
+</database>

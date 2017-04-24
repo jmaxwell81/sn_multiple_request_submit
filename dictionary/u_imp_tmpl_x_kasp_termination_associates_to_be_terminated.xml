@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Kasp Termination Associates To Be Terminated" max_length="40" name="u_imp_tmpl_x_kasp_termination_associates_to_be_terminated" type="collection">
+        <element attributes="import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=User ID" label="User ID" max_length="40" name="u_user_id" type="string"/>
+    </element>
+</database>
